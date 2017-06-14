@@ -34,7 +34,7 @@ header {
 	background-clip: content-box;
 	height:240px;
 	width:1260px;
-	background-color:cadetblue;	
+	background-color:;	
 }
 
 /*===================================
@@ -53,6 +53,8 @@ nav {
 	z-index: 1;
 }
 
+
+
 .nav-el a {
 	position: relative;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -62,6 +64,9 @@ nav {
 	left:60px;
 }
 
+.nav-el a:hover {
+	color:#fff;
+}
 header h1 {
 	position: relative;
 	top:110px;
@@ -74,18 +79,27 @@ header h1 {
 
 /*===================================
 
-Main Section
+Main Content
 
 ===================================*/
 .main {
 	height:1000px;
 	display:flex;
+	background:teal;
+	background: -webkit-linear-gradient(left, teal, violet); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, teal, violet); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, teal, violet); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, teal, violet); /* Standard syntax */
 	background: linear-gradient(to right, teal, violet);
+}
+
+.main-about {
+	height:800px;
 }
 
 .sidebar-left {
 	width:300px;
-	height:1000px;
+	height:100%;
 
 	
 	/*
@@ -101,9 +115,12 @@ Main Section
 	margin-left:90px;
 	margin-top:50px;
 	width:350px;
+	min-width:350px;
 	background: ;
+}
 
-	
+.audio-middle {
+	width:800px;
 }
 
 .sidebar-middle h1 {
@@ -118,15 +135,22 @@ Main Section
 
 }
 
+.sidebar-middle #headshot {
+	margin-top:30px;
+
+}
+
 iframe {
 	display: block;
 	margin-top: 25px;
 }
 
 .sidebar-right {
-	font-family:;
+	font-family:sans-serif;
+	font-weight: 100;
 	background:;
 	width:300px;
+	min-width:250px;
 	margin-left:90px;
 	margin-top:80px;
 	border:1px solid #ddd;
@@ -136,8 +160,47 @@ iframe {
 	border-radius: 5px;
 }
 
+.sidebar-right h2{
+	font-family: cursive;
+
+}
+
 .social-media a i {
 	color:black;
 	margin-right: 15px;
 
+}
+
+.social-media a .fa-twitter-square:hover {
+	color:#00aced;
+}
+
+.social-media a .fa-facebook-square:hover {
+	color:#3b5998;
+}
+
+#about-list {
+	margin-left:20px;
+}
+
+#about-list ul li {
+	margin-bottom: 5px;
+}
+
+.spacer {
+	height:1px;
+	width:80%;
+	background: #555;
+}
+/*===================================
+
+Footer
+
+===================================*/
+
+footer {
+	height:30px;
+	width:100%;
+	margin-top:15px;
+	border-top: 1px solid #ddd
 }
