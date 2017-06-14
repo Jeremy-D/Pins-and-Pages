@@ -33,7 +33,8 @@ header {
 	background-repeat: no-repeat;
 	background-clip: content-box;
 	height:240px;
-	width:100%;	
+	width:1260px;
+	background-color:cadetblue;	
 }
 
 /*===================================
@@ -68,6 +69,7 @@ header h1 {
 	clear:both;
 	z-index:0;
 	color:#fff;
+	width:50%;
 }
 
 /*===================================
@@ -76,13 +78,14 @@ Main Section
 
 ===================================*/
 .main {
-	height:800px;
-	display :flex;
+	height:1000px;
+	display:flex;
+	background: linear-gradient(to right, teal, violet);
 }
 
 .sidebar-left {
 	width:300px;
-	height:100%;
+	height:1000px;
 
 	
 	/*
@@ -91,11 +94,14 @@ Main Section
     background: -moz-linear-gradient(red, yellow); 
     background: linear-gradient(#000, #00e6b8); 
     */
-    background-color:#000;
+    background-color:#777;
 }
 
 .sidebar-middle {
-	margin-left:150px;
+	margin-left:90px;
+	margin-top:50px;
+	width:350px;
+	background: ;
 
 	
 }
@@ -108,6 +114,7 @@ Main Section
 	border:1px solid #ccc;
 	border-radius:5px;
 	background: #ddd;
+	font-weight:100;
 
 }
 
@@ -117,6 +124,20 @@ iframe {
 }
 
 .sidebar-right {
-	font-family: cursive;
+	font-family:;
+	background:;
+	width:300px;
+	margin-left:90px;
+	margin-top:80px;
+	border:1px solid #ddd;
+	background:#ddd;
+	height:350px;
+	padding:20px;
+	border-radius: 5px;
+}
+
+.social-media a i {
+	color:black;
+	margin-right: 15px;
 
 }
