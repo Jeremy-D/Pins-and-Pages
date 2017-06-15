@@ -97,8 +97,15 @@ Main Content
 	height:800px;
 }
 
+/*===================================
+
+Mail Chimp Sign Up
+
+===================================*/
+
 .sidebar-left {
 	width:300px;
+	min-width: 290px;
 	height:100%;
 
 	
@@ -109,8 +116,95 @@ Main Content
     background: linear-gradient(#000, #00e6b8); 
     */
     background-color:#777;
+    display:flex;
+    justify-content: center;
 }
 
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	margin-top:80px;
+	height:350px;
+	width:95%;
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	        border-radius:5px;
+}
+
+#mc_embed_signup_scroll h2 {
+	color:#00cc88;
+	text-align:;
+	font-size:30px;
+	margin-left:10px;
+	margin-top:20px;
+	padding-top:10px;
+}
+
+.indicates-required {
+	position:relative;
+	right:20px;
+	font-size:8pt;
+	float:right;
+	margin:5px 0 10px 0;
+}
+
+.indicates-required span {
+	color:red;
+	display:inline;
+}
+
+.mc-field-group label,
+.mc-field-group input {
+	display:block;
+	clear:both;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin: 5px 0 10px 10px;
+}
+
+.mc-field-group label span{
+	color:red;
+}
+
+
+.mc-field-group input {
+	height:30px;
+	width:70%;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	        border-radius:2px;
+	border:1px solid #ddd;
+	font-size:17px;
+}
+
+.button {
+	height:35px;
+	text-align:center;
+	color:#fff;
+	background:#c9c9c9;
+	font-size: 12px;
+	margin-left: 10px;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	        border-radius:2px;
+	border:#ddd;
+	padding-left:10px;
+	padding-right: 10px;
+
+}
+
+.button:hover {
+	background: #bbb;
+	cursor: pointer;
+	color:#00ffcc;
+}
+
+/*===================================
+
+Middle Content
+
+===================================*/
 .sidebar-middle {
 	margin-left:90px;
 	margin-top:50px;
@@ -119,8 +213,13 @@ Main Content
 	background: ;
 }
 
+.sidebar-middle-index{
+	margin-top:54px;
+}
+
 .audio-middle {
 	width:800px;
+	margin-top:54px;
 }
 
 .sidebar-middle h1 {
@@ -137,12 +236,14 @@ Main Content
 
 .sidebar-middle #headshot {
 	margin-top:30px;
+	border-radius: 5px;
 
 }
 
 iframe {
 	display: block;
 	margin-top: 25px;
+	border-radius:5px;
 }
 
 .sidebar-right {
