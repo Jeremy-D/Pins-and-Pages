@@ -23,6 +23,8 @@ h1 {
 }
 input {
 	outline: none;
+	width:0;
+	height:0;
 }
 /*===================================
 
@@ -193,6 +195,7 @@ Mail Chimp Sign Up
 	border:#ddd;
 	padding-left:10px;
 	padding-right: 10px;
+	width:75px;
 
 }
 
