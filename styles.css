@@ -21,7 +21,9 @@ h1 {
 	font-weight:100;
 
 }
-
+input {
+	outline: none;
+}
 /*===================================
 
 Header
@@ -197,7 +199,7 @@ Mail Chimp Sign Up
 .button:hover {
 	background: #bbb;
 	cursor: pointer;
-	color:#00ffcc;
+	color:#33ffbb;
 }
 
 /*===================================
