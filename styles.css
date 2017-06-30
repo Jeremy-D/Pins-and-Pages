@@ -15,8 +15,6 @@ General Styles
 ===================================*/
 
 h1 {
-	
-	
 	font: 300 61px/72px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:100;
 
@@ -26,6 +24,8 @@ input {
 	width:0;
 	height:0;
 }
+
+
 /*===================================
 
 Header
@@ -37,8 +37,9 @@ header {
 	background-repeat: no-repeat;
 	background-clip: content-box;
 	height:240px;
-	width:1260px;
+	
 	background-color:;	
+	width:100%;
 }
 
 /*===================================
@@ -57,8 +58,6 @@ nav {
 	z-index: 1;
 }
 
-
-
 .nav-el a {
 	position: relative;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,6 +70,7 @@ nav {
 .nav-el a:hover {
 	color:#fff;
 }
+
 header h1 {
 	position: relative;
 	top:110px;
@@ -78,7 +78,7 @@ header h1 {
 	clear:both;
 	z-index:0;
 	color:#fff;
-	width:50%;
+	width:400px;
 }
 
 /*===================================
@@ -101,9 +101,14 @@ Main Content
 	height:800px;
 }
 
+#middle-right-content {
+	display:flex;
+	flex-direction: row;
+}
+
 /*===================================
 
-Mail Chimp Sign Up
+Left Side Bar/ Mail Chimp Sign Up
 
 ===================================*/
 
@@ -119,7 +124,7 @@ Mail Chimp Sign Up
     background: -moz-linear-gradient(red, yellow); 
     background: linear-gradient(#000, #00e6b8); 
     */
-    background-color:#777;
+    background-color:#aaa;
     display:flex;
     justify-content: center;
 }
